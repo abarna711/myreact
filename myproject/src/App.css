@@ -1,0 +1,344 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  overflow: hidden;
+}
+.navbar{
+  background-color:rgb(245, 234, 212);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: sticky;
+  position: fixed;
+  top: 0;
+}
+.logo h1{
+  font-weight: bolder;
+  font-size: 30px;
+}
+.nav-item{
+  margin-left: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-menu{
+margin-left: 5px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.nav-menu:hover{
+ background-color: aliceblue;
+}
+Nav.Link{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* home page */
+#home{
+  background-color: rgb(253, 156, 189);
+}
+#home .row .col h1,p{
+  margin-top: 20% ;
+  margin-left: 20%;
+}
+#home .col h1{
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 5%;
+}
+#home .col p{
+  font-size: 18px;
+  color: white;
+}
+#home .col .btn{
+color: black;
+margin-left: 45%;
+background-color: white;
+margin-top: 10px;
+padding-left: 35px;
+padding-right: 35px;
+
+}
+#home .col .btn:hover{
+  background-color: rgb(245, 132, 170);
+}
+#home .col img{
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+/* shop page */
+#shop{
+  overflow: hidden;
+}
+#shop h1{
+  margin-top: 50px;
+  font-weight: bold;
+}
+.cardimg{
+  /* width: 5px; */
+  height:250px;
+  /* padding-right: 10px; */
+}
+.card{
+  background-color: rgb(27, 26, 26);
+  box-shadow: 2px 2px 4px black;
+  margin-top: 30px;
+  margin-left: 10px;
+  overflow: hidden;
+  height: 180px;
+  margin-bottom: 20px;
+ 
+}
+#shop p{
+  color: black;
+  margin-top: 20px;
+  margin-left: 70px;
+  font-size: 25px;
+}
+#shop a{
+  margin-left: 45px;
+  font-size: 20px;
+  border: 2px solid rgb(243, 176, 187);
+  width: 70%;
+}
+#shop a:hover{
+  background-color: palevioletred;
+  color: white;
+}
+.card-title{
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+#shop button{
+  margin-top: 40px;
+  width: 20%;
+  align-items: center;
+  margin-left: 40%;
+  color:white;
+  font-size: 20px;
+  background-color: palevioletred;
+  overflow: hidden;
+
+}
+#shop button:hover{
+  border: 1px solid palevioletred;
+  background-color: white;
+  color: rgb(59, 2, 21);
+}
+
+/* savings */
+
+.saving .row{
+  background-color: skyblue;
+  margin: 60px 20px 0px 20px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.saving  h1{
+  margin-top: 10% ;
+  margin-left: 10%;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.saving p{
+  margin-left: 10%;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+.saving .btn{
+  margin-left: 10%;
+  background-color: palevioletred;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 40px;
+
+}
+.saving .btn:hover{
+  background-color: white;
+  color: rgb(240, 110, 132);
+}
+
+/* why us */
+
+#why  h1{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+} 
+#why .col{
+  /* border: dotted; */
+  overflow: hidden;
+}
+#why .row{
+  /* border: dotted; */
+  margin: 60px 20px 0px 20px;
+}
+#why img{
+  width: 50%;
+  height: 100px;
+  align-items: center;
+  margin-left: 23%;
+  color: rgb(116, 116, 219);
+  overflow: hidden;
+
+}
+#why .col span{
+  color: rgb(7, 7, 102);
+  width: 50%;
+  height: 300px;
+  align-items: center;
+  margin-left: 45%;
+  margin-bottom: 20px;
+}
+#why .col h4{
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+#why .col p{
+  /* margin-left: 25%;
+  margin-right: 20%; */
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20%;
+}
+
+/* testimonial */
+#testimonial .row{
+  background-color:purple;
+  margin: 60px 20px 0px 20px;
+  border-radius: 30px;
+}
+#testimonial img{
+  height: 500px;
+  margin-left: 10%;
+  overflow: hidden;
+}
+#testimonial h1{
+  margin-top: 10% ;
+  margin-left: 10%;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+#testimonial p{
+  margin-left: 10%;
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+#testimonial .btn{
+  margin-left: 10%;
+  background-color:white;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 30px 5px 30px;
+  margin-bottom: 40px;
+
+}
+#testimonial .btn:hover{
+  background-color: rgb(228, 143, 228);
+  color:purple;
+}
+
+/* contact */
+#contact .row{
+  margin: 60px 20px 0px 20px;
+}
+#contact h1{
+ margin-top: 5%;
+ margin-left: 0px;
+ text-align: center;
+}
+#contact input{
+  width: 50%;
+  align-items: center;
+  margin-left: 20%; 
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border: 1px solid rgb(240, 144, 160);
+
+}
+#contact textarea{
+  width: 50%;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  border: 1px solid rgb(240, 144, 160);
+}
+#contact button{
+  margin-left: 32%;
+  margin-bottom: 30px;
+  padding: 5px 50px 5px 50px;
+  border: none;
+  background-color: palevioletred;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#contact button:hover{
+  background-color: white;
+  border: 2px solid palevioletred;
+  color: black;
+}
+@media only screen and (max-width: 410px) {
+  #testimonial img{
+    margin-left: 0px;
+    overflow: hidden;
+  }
+  #shop button{
+    margin-left: 25%;
+    overflow: hidden;
+  
+  }
+  #home .row .col h1,p{
+    margin-top: 20% ;
+    margin-left: 10%;
+  }
+  #home .col .btn{
+    margin-left: 30%;
+  }
+    #home .col img{
+      margin-left: 15%;
+      margin-top: 20px;
+    }
+    .card{
+      margin-left: 40px;
+      overflow: hidden;
+  }
+  #contact button{
+    margin-left: 23%;
+     
+  }
+  #contact input{
+    width: 80%;
+    margin-left: 10%; 
+   
+  
+  }
+  #contact textarea{
+    width: 80%;
+    margin-left: 10%;
+   
+  }
+  
+}
+
+
+
